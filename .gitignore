@@ -1,0 +1,16 @@
+# Xcode build output
+FocusTimer/build/
+DerivedData/
+
+# Xcode user-specific files
+*.xcuserstate
+xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# macOS
+.DS_Store
+
+# Swift Package Manager (if added later)
+.build/
+.swiftpm/
