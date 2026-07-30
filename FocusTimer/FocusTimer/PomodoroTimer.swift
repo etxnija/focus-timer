@@ -110,7 +110,7 @@ class PomodoroTimer: ObservableObject {
         }
 
         timeRemaining = phase.duration
-        if autoStart { start() }
+        if autoStart && phase != .focus { start() }
     }
 
     private func requestNotificationPermission() {
